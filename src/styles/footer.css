@@ -1,0 +1,14 @@
+.footer {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.nameSignature {
+    color: #282c34;
+}

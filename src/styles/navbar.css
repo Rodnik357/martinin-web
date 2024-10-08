@@ -1,0 +1,52 @@
+.navbar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;   
+}
+
+.navbar div {
+    padding: 25px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+    
+}
+
+.navbar div:hover {
+
+    cursor: pointer;
+    background-color: #282c34;
+    color: bisque;
+}
+
+.homeButton, .serviceButton, .aboutUsButton, .contactButton {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 5px 15px;
+    
+}
+
+.homeButton img, .homeButton p, .serviceButton img, .serviceButton p, .aboutUsButton img, .aboutUsButton p, .contactButton img, .contactButton p {
+    color: #282c34;
+    width: 30px;
+}
+
+.homeButton:hover p, .serviceButton:hover p, .aboutUsButton:hover p, .contactButton:hover p { 
+    color: bisque;
+    
+    
+}
+
+.homeButton:hover img, .serviceButton:hover img, .aboutUsButton:hover img, .contactButton:hover img {
+    width: 30px;
+    filter: invert(96%) sepia(4%) saturate(3865%) hue-rotate(313deg) brightness(101%) contrast(104%);
+}
+
+
+
+
+
